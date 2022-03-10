@@ -5,3 +5,9 @@ let numero = 1;
 }
 
 console.log("fora =", numero);
+
+if (true) {
+  var dentroif = 2;
+}
+
+console.log(dentroif);
