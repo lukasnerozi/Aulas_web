@@ -12,20 +12,20 @@
       var jogador2 = parseInt(prompt("Seu numero"));
 
       if (jogador1 === jogador2) {
-        alert("Empate");
+        alert("empate");
       } else {
-        var numeroSorteado = parseInt(Math.random() * 2);
-        if (numeroSorteado === 0) {
+        let nSorteio = parseInt(Math.random() * 2);
+        if (nSorteio === 0) {
           if (jogador1 < jogador2) {
             alert("jogador 1 ganhou");
           } else {
-            alert("Jogador 2 ganhou");
+            alert("jogador 2 ganhou");
           }
         } else {
           if (jogador1 > jogador2) {
-            alert("ganhou jogador 1");
+            alert("jogador 2 ganhou");
           } else {
-            alert("ganhou jogador 2");
+            alert("jogador 1 ganhou");
           }
         }
       }
